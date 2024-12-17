@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: DaleWYZ
+    provider: github
+    repository: and-quick-test1
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: dalewyz-and-quick-test1
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/DaleWYZ/and-quick-test1.git
+  org: DaleWYZ
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: and-quick-test1
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/DaleWYZ/and-quick-test1
