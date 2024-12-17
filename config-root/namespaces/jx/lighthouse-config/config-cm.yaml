@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        DaleWYZ/and-quick-test1: true
         DaleWYZ/deployjx-1217-1: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        DaleWYZ/and-quick-test1: merge
         DaleWYZ/deployjx-1217-1: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - DaleWYZ/deployjx-1217-1
+        - DaleWYZ/and-quick-test1
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - DaleWYZ/deployjx-1217-1
+        - DaleWYZ/and-quick-test1
       target_url: http://lighthouse-jx.jenkinsx.corp.angoo.io/merge/status
 kind: ConfigMap
 metadata:
