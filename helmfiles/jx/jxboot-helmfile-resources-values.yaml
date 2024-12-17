@@ -1,0 +1,4 @@
+ingress:
+  customHosts:
+    hook: "hook-jx.jenkinsx.corp.angoo.io"
+
