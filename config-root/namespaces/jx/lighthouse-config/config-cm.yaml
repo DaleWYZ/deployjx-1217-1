@@ -9,6 +9,7 @@ data:
       enabled:
         DaleWYZ/and-quick-test1: true
         DaleWYZ/deployjx-1217-1: true
+        DaleWYZ/golangtest1218: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         DaleWYZ/and-quick-test1: merge
         DaleWYZ/deployjx-1217-1: merge
+        DaleWYZ/golangtest1218: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - DaleWYZ/deployjx-1217-1
         - DaleWYZ/and-quick-test1
+        - DaleWYZ/golangtest1218
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - DaleWYZ/deployjx-1217-1
         - DaleWYZ/and-quick-test1
+        - DaleWYZ/golangtest1218
       target_url: http://lighthouse-jx.jenkinsx.corp.angoo.io/merge/status
 kind: ConfigMap
 metadata:
