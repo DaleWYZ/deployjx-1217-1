@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: and-quick-test1
+    - name: golangtest1218
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
